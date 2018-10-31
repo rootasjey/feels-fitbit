@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "0acf5052-a025-4dd9-bed8-77818ad8c306",
+    "appType": "clockface",
+    "appDisplayName": "Feels",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Feels"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

@@ -1,0 +1,44 @@
+<svg class="background">
+  <gradientRect width="100%" height="100%"
+    gradient-type="linear"
+    gradient-x1="0" gradient-y1="50"
+    gradient-x2="0" gradient-y2="100%-50"
+    gradient-color1="#9b59b6" gradient-color2="#2c3e50" />
+  
+  <g id="top">
+    <text id="clock" />
+  </g>
+  
+  <g id="weather-group">
+    <text id="temperature" />
+    <text id="condition" />
+
+    <image id="weather-icon" href="icons/weather/sunny.png" width="80" height="80" />
+    
+    <text id="location" />
+  </g>
+  
+  <g id="activities-group">
+    <g id="activity0" transform="translate(10,190)">
+      <image id="activity0-img" class="activity-icon" 
+             href="icons/activities/stat_am_open_32px.png" 
+             width="30" height="30"/>
+      <text id="activity0-txt" class="activity-txt" x="10" y="50"/>
+    </g>
+    
+    <g id="activity1" transform="translate(50,190)">
+      <image id="activity1-img" class="activity-icon" 
+             href="icons/activities/stat_cals_open_32px.png" 
+             width="30" height="30"/>
+      <text id="activity1-txt" class="activity-txt" x="10" y="50"/>
+    </g>
+    
+    <g id="activity2" transform="translate(90,190)">
+      <image id="activity2-img" class="activity-icon" 
+             href="icons/activities/stat_dist_open_32px.png" 
+             width="30" height="30"/>
+      <text id="activity2-txt" class="activity-txt" x="10" y="50"/>
+    </g>
+    
+  </g>
+</svg>

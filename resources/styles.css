@@ -1,0 +1,65 @@
+.background {
+  /*viewport-fill: red;*/
+}
+
+#clock {
+  font-size: 40;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  x: 130;
+  y: 40;
+  fill: white;
+}
+
+#weather-icon {
+  text-anchor: middle;
+  x: 200;
+  y: 80;
+  fill: white;
+}
+
+#temperature {
+  font-size: 60;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  x: 10;
+  y: 140;
+  fill: white;
+}
+
+#condition {
+  font-size: 25;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  x: 10;
+  y: 90;
+  fill: white;
+}
+
+#location {
+  font-size: 25;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  x: 10;
+  y: 160;
+  fill: white;
+}
+
+
+.activity-icon {
+  fill: white;
+}
+
+.activity-txt {
+  font-size: 20;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+}
+
+
